@@ -13,3 +13,5 @@ For each URL, it sends a request to the API, retrieves the JSON response, and ex
 The extracted information includes date and time, location details (country, city, region), precipitation probabilities (chance of rain and snow), cloud cover, humidity, visibility, wind direction, wind speed, and various daily average and extreme weather metrics.
 This data is stored as a dictionary (row) for each hour and appended to the weather_data list.
 Finally, a panda DataFrame (weather_df) is created from the list of dictionaries, and the resulting DataFrame is displayed, providing a tabular representation of the extracted weather forecast information.
+
+Amir Shabani
